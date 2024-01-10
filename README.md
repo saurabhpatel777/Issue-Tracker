@@ -9,9 +9,9 @@ Build the website to create a project and also create the issue of the project
 Install my-project with npm
 
 ```bash
-  git clone 
+  git clone :- https://github.com/saurabhpatel777/Issue-Tracker
   npm install
-  cd Issue_Tracker
+  hosted Issue_Tracker:- https://issue-tracker-project-2fgg.onrender.com/
 ```
     
 ## Running Tests
