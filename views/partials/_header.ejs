@@ -1,0 +1,19 @@
+<!-- link the css -->
+<link rel="stylesheet" href="/css/header.css">
+
+<!-- UI for header -->
+<div class="header-container">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="/">Issue Tracker</a>
+        <%if (title=="Project Page" ){%>
+          <%-include('_issue_form');%>
+            <%}else{%>
+              <%-include('_project_form');%>
+
+                <%}%>
+      </div>
+    </nav>
+  </div>
+</div>
